@@ -5,6 +5,8 @@ import static org.hamcrest.MatcherAssert.is;
 
 import org.junit.jupiter.api.Test;
 
+import base.BaseTests;
+
 public class HomePageTests extends BaseTests {
 	
 	@Test
