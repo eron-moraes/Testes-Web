@@ -12,7 +12,7 @@ public class HomePageTests extends BaseTests {
 	@Test
 	public void testContarProdutos_oitoProdutosDiferentes() {
 		carregarPaginaInicial();
-		assertThat(homePage.contarProdutos(), is(8));		
+		assertThat(homePage.contarProdutos(), is (8));		
 	}
 
 }
