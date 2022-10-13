@@ -1,0 +1,20 @@
+package calc;
+
+public class ArraysEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		HashMap<String, String> map = new HashMap <String, String>();
+				
+		vagas.put("A", "DLW-5001");
+		vagas.put("B", "PVP-1677");
+		
+	
+		System.out.println(vagas.get());
+		}
+
+	}
+
+}

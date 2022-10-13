@@ -1,0 +1,23 @@
+package calc;
+
+import java.util.Scanner;
+
+public class potencializacao {
+
+	public static void main(String[] args) {
+		int num1,num2;
+		
+		System.out.println("CALCULADORA DE POTÊNCIA");
+		
+		Scanner in = new Scanner(System.in);
+		System.out.print("Entre com o Primeiro numero>>> ");
+		num1 = in.nextInt();
+		
+		System.out.print("Entre com o número a ser potencializado>>>^: ");
+		num2 = in.nextInt();
+		
+		System.out.println(Math.pow(num1,num2));
+		
+	}
+
+}

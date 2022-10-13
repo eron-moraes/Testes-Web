@@ -20,4 +20,17 @@
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>
 	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras-em-Java\src"/>
+			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras-em-Java\src\calc"/>
+			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras em Java\src"/>
+			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras em Java"/>
+			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras-em-Java"/>
+		</list>
+	</section>
 </section>
