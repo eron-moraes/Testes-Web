@@ -1,0 +1,25 @@
+package ClassCalc;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Calcular calc = new Calcular();
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Insira o valor do Calculo");
+			calc.vlA = sc.nextDouble();
+			System.out.println("Insira o valor do Calculo");
+			calc.vlB = sc.nextDouble();
+			System.out.println("insira a operacao");
+			calc.operacao = sc.next();
+		}
+		calc.calcular();
+		System.out.println("O resultado e " + calc.resultado + "calculo de " + calc.operacao+ " de " + calc.vlA + " e " + calc.vlB);
+		
+		
+
+	}
+
+}
