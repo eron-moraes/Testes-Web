@@ -26,6 +26,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras-em-Java\src\BancoDigital"/>
+			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras-em-Java\src\EstacionamentoGeral\bin"/>
+			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras-em-Java\src\EstacionamentoGeral"/>
 			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras-em-Java\src"/>
 			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras-em-Java\src\calc"/>
 			<item value="C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Calculadoras em Java\src"/>
