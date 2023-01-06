@@ -25,10 +25,10 @@ public class HomePageTests extends BaseTests {
 	public void testValidarDetalhesDoProduto_DescricaoEValorIguais() {
 		int indice = 0;
 		String nomeProduto_HomePage = homePage.obterNomeProduto(indice);
-		//String precoProduto_HomePage = homePage.obterPrecoProduto(indice);
+		String precoProduto_HomePage = homePage.obterPrecoProduto(indice);
 		
 		System.out.println(nomeProduto_HomePage);
-		//System.out.println(precoProduto_HomePage);
+		System.out.println(precoProduto_HomePage);
 		
 	}
 	
