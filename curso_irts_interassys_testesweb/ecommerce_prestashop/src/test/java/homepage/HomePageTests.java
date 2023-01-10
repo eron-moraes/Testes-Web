@@ -55,6 +55,27 @@ public class HomePageTests extends BaseTests {
 		loginPage.clicarBotaoSignIn();
 		// Validar se o usuário está logado de fato
 		assertThat(homePage.estaLogado("Marcelo Bittencourt"), is(true));
+		carregarPaginaInicial();
+	}
+	
+	@Test
+	 public void incluirProdutoNoCarrinho_ProdutoIncluidoComSucesso(){
+		
+		//--Pré-condição
+		// Usuário Logado
+		if (!homePage.estaLogado("Marcelo Bittencourt")) {
+			testLoginComSucesso_UsuarioLogado();
+		}
+		//--Teste
+		//Selecionando produto
+		testValidarDetalhesDoProduto_DescricaoEValorIguais();
+		
+		// Selecionar Tamanho
+		//Selecionar Cor
+		//Selecionar Quantidade
+		
+		//Adicionar no carrinho
+		
 	}
 	
 }
