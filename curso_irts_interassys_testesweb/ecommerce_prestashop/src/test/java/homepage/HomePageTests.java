@@ -3,6 +3,8 @@ package homepage;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 
 import base.BaseTests;
@@ -23,6 +25,7 @@ public class HomePageTests extends BaseTests {
 		assertThat(produtosNoCarrinho, is(0));
 	}
 	
+	ProdutoPage produtoPage;
 	@Test
 	public void testValidarDetalhesDoProduto_DescricaoEValorIguais() {
 		int indice = 0;
@@ -44,6 +47,7 @@ public class HomePageTests extends BaseTests {
 		assertThat(precoProduto_ProdutoPage, is(precoProduto_ProdutoPage));
 	}
 	
+	LoginPage loginPage;
 	@Test
 	public void testLoginComSucesso_UsuarioLogado() {
 		// Clicar no botão Sing In na home page
@@ -71,6 +75,10 @@ public class HomePageTests extends BaseTests {
 		testValidarDetalhesDoProduto_DescricaoEValorIguais();
 		
 		// Selecionar Tamanho
+		List<String> listaOpcoes = produtoPage.obterAsOpcoesSelecionadas();
+		
+		System.out.println(listaOpcoes.get(0));
+		System.out.println("Tamanho da lista" + listaOpcoes.size());
 		//Selecionar Cor
 		//Selecionar Quantidade
 		
