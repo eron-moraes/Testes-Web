@@ -79,8 +79,18 @@ public class HomePageTests extends BaseTests {
 		
 		System.out.println(listaOpcoes.get(0));
 		System.out.println("Tamanho da lista" + listaOpcoes.size());
+		
+		produtoPage.selecionarOpcaoDropDown("M");
+		
+		listaOpcoes = produtoPage.obterAsOpcoesSelecionadas();
+		
+		System.out.println(listaOpcoes.get(0));
+		System.out.println("Tamanho da lista" + listaOpcoes.size());
 		//Selecionar Cor
+		
+		produtoPage.selecionarCorPreta();
 		//Selecionar Quantidade
+		produtoPage.alterarQuantidade(2);
 		
 		//Adicionar no carrinho
 		

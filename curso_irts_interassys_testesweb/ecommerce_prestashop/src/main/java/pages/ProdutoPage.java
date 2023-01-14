@@ -16,6 +16,10 @@ public class ProdutoPage {
 	private By nomeProduto = By.className("h1");
 	private By precoProduto = By.cssSelector(".current-price span:nth-child(1)");
 	private By tamanhoProduto = By.id("group_1");
+	private By inputCorPreta = By.xpath("//ul[@id'group_2']//input[@value='11']");
+	private By quantidadeProduto = By.id("quantity_wanted");
+	private By botaoAddToCart = By.className("add-to-cart");
+	
 	
 	public ProdutoPage(WebDriver driver) {
 		this.driver = driver;
@@ -30,7 +34,7 @@ public class ProdutoPage {
 	}
 	
 	public void selecionarOpcaoDropDown(String opcao) {
-		encontrarDropDownSize().deselectByVisibleText(opcao);
+		encontrarDropDownSize().selectByVisibleText(opcao);
 	}
 	
 	public List<String> obterAsOpcoesSelecionadas(){
@@ -46,5 +50,18 @@ public class ProdutoPage {
 	
 	public Select encontrarDropDownSize() {
 		return new Select (driver.findElement(tamanhoProduto));
+	}
+	
+	public void selecionarCorPreta() {
+		driver.findElement(inputCorPreta).click();
+	}
+	
+	public void alterarQuantidade(int quantidade) {
+		driver.findElement(quantidadeProduto).clear();
+		driver.findElement(quantidadeProduto).sendKeys(Integer.toString(quantidade));
+	}
+	
+	public void clicarBotaoAddToCart() {
+		driver.findElement(botaoAddToCart).click();
 	}
 }
