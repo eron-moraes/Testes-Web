@@ -1,4 +1,4 @@
-# TestesWeb
+# Testes web automatizados com Selenium web driver
  Testes automatizados feitos em e-commerce web utilizando o Selenium web driver para realizar os testes.
  
  ![1_-yauD1PxgsdiOJQMqnmu1w](https://user-images.githubusercontent.com/110741158/231311783-49d74fa8-bd3c-4bb4-9f08-7a708090b921.jpg)
